@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(236, 182, 224);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#panel{
+    width: 80%;
+    height: 80%;
+    border-radius: 5px;
+    background-color: white;
+    overflow: hidden;
+}
+#topb{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(160, 85, 145);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25%;
+}
+
+.ele{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.ele h4{
+    font-size: 20px;
+}
+.box{
+    padding: 10px 10px;
+    background-color: white;
+    border-radius: 4px;
+    color: rgb(44, 24, 36);
+    font-weight: 600;
+}
+
+#btmb{
+    width: 100%;
+    padding: 10px 10px;
+    height: calc(100% - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.bubble{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(160, 85, 145);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(148, 59, 112);
+}
